@@ -5,7 +5,7 @@ from baysian import Baysian
 from ensemble import Ensemble
 
 if __name__ == "__main__":
-    data = pd.read_csv('data/emails.csv')
+    data = pd.read_csv('/Users/hemkumar/Downloads/spam_data.csv')
 
 
     data= data.sample(frac=1)
